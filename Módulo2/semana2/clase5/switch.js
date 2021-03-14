@@ -1,4 +1,5 @@
-var cosSwi = 6;
+const prompt = require("prompt-sync")();
+var cosSwi = prompt();
 switch(cosSwi)
 {
     case 2:
@@ -9,7 +10,7 @@ switch(cosSwi)
         console.log("el valor ingresado es 6")
         break;
 
-    case luis:
+    case "luis":
         console.log("el valor ingresado es luis")
         break;
 
