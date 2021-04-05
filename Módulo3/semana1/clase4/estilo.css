@@ -1,0 +1,32 @@
+#titulo
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 5.25em;
+    color: #ededed;
+    background-position-y: em;
+    background-color: black;
+    border: 10px solid #093D53;
+}
+
+#random
+{
+    color: #ededed;
+    font-size: 2.12em;
+    background: black;
+    padding: 40px;
+    width: 15.5em;
+    height: 18em;
+    border: 25px solid #093D53;
+}
+
+#random1
+{
+    color: #ededed;
+    font-size: 2.12em;
+    background: black;
+    padding: 40px;
+    width: 15.5em;
+    height: 18em;
+    border: 25px solid #093D53;
+}

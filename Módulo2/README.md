@@ -1,0 +1,68 @@
+# Modulo 2
+- Asesoria
+    - Asesoria1
+        - Calificacion menor
+    - Asesoria2
+        - Juego de palabra
+    - Asesoria3
+        - Cambios (de entero a string y viseversa)
+- Semana1
+    - Clase1
+        - Caracteristicas
+        - Programa 1
+    - Clase2
+        - Carro
+        - Tipos de variable
+    - Clase3
+        - Funciones aritmeticas
+        - Asignaciones(exponente, residuo, etc)
+        - Comparación
+    - Clase4
+        - Condicionales
+        - Y, O, NO
+    - Ejercicio
+        - Maquina expendedora
+- Semana2
+    - Clase5
+        - Condiciones 2
+    - Clase6
+        - Switch
+    - Clase7
+        - arreglos 
+    - Clase8
+        - Ordenar arreglos
+    - Ejercicio
+        - Horario
+        - Notas
+- Semana3
+    - Clase9
+        - Ciclos
+        - Continuacion
+    - Clase10
+        - Funciones
+    - Clase11
+        - Funciones Ejercicio
+        - variable Let
+    - Clase12
+        - Clases
+        - Funciones 2
+        - Obj
+    - Ejercicio
+        - Leer suma numeros <- menos eficiente
+        - Leer2 suma numeros 
+        - Detector de Mayuscula o Minuscula
+        - Detector de par o impar
+- Semana4
+    - Clase13
+        - conti
+        - Descomponer
+    - Clase14
+        - Descomponer2
+        - Util
+        - funcionalidad
+    - Clase15
+        - Funciones asincronicas
+    - Clase16
+        - Funciones asincronicas 2
+    - Ejercicio
+        - Repaso
