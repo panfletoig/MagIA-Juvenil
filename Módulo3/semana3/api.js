@@ -11,7 +11,7 @@ https.get('https://www.omdbapi.com/?apikey=8cfa1544&t=gotham',
 
     respuesta.on('end', 
     () => {
-        console.log(informacion);
+        console.log(JSON.parse(informacion));
     })
 }).on('error', 
     (error) => {
