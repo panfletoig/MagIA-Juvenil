@@ -15,4 +15,4 @@ axios.get('https://www.omdbapi.com/?apikey=8cfa1544&t=gotham')
     console.log(error);
 })
 
-axios.post
+axios.post()
