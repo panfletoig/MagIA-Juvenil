@@ -14,5 +14,3 @@ axios.get('https://www.omdbapi.com/?apikey=8cfa1544&t=gotham')
 .catch(error => {
     console.log(error);
 })
-
-axios.post()
