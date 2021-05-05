@@ -10,7 +10,7 @@ enlase[5] = "https://ssbworld.com/images/avatars/ShinyMark1/ShinyMark1.jpg";
 enlase[6] = "https://cdn.discordapp.com/attachments/765998675390103563/837429614308884501/2Q.png";
 
 //direccion de la peticion {endpoint/punto de acceso}
-var dirreccion = 'https://serviciovisionnorte.cognitiveservices.azure.com/vision/v3.0/analyze?language=es&visualFeatures=Objects,Tags';
+var dirreccion = 'https://serviciovisionnorte.cognitiveservices.azure.com/vision/v3.0/describe?maxCandidates=1';
 
 //PETICIÓN POST
 function peticion(cont, callback)
@@ -25,7 +25,7 @@ function peticion(cont, callback)
                 'Content-Type':'application/json'}
         })
         .then(respuesta => {
-            respuestaInfo = respuesta.data.tags;
+            respuestaInfo = respuesta.data.description.captions[0].text;
             callback(respuestaInfo);
         })
         .catch(error => {
@@ -33,6 +33,6 @@ function peticion(cont, callback)
         })
 }
 
-peticion(2, respuesta =>{
-    console.log(respuesta);
+peticion(6, respuesta =>{
+    console.log("Es acaso: "+respuesta);
 })
