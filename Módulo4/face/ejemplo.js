@@ -4,7 +4,6 @@ const prompt = require('prompt-sync')();
 var enlases = [];
 var nEnlase = prompt("Ponga su numero: ");
 nEnlase = parseInt(nEnlase);
-console.log(nEnlase);
 
 var empleado = {Nombre: "Tobey", id: "486a9b10-1e26-4c22-8478-7b86c76634fd"}
 var empleado2 ={Nombre: "Maguire", id:"df5aa129-cae3-4b96-917c-f8a162f7096b"}
